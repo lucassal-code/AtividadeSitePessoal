@@ -3,59 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo Web!</title>
+    <title>Black Sabbath!</title>
 
     <style>
+        /*headers*/
         h1 {
             text-align: center;
             margin: 10px;
+            color: red;
         }
 
-        #texto1 {
+        h2 {
             text-align: center;
+            color: red;
         }
 
+        /*body*/
+        body {
+            background-image: url(../imgs/background-image.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #eras {
+            text-align: center;
+            width: 900px;
+            height: 500px;
+
+            background-color: #ccc;
+            opacity: 0.75;
+
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /*imagens*/
         .icones {
             text-align: right;
         }
 
-        .imagens {
-            left: 150;
-            
-            
-        }
         .tamanho-imagem{
             width: 50px;
+        }
+
+        .tamanho-eras {
+            width: 250px;
         }
 
     </style>
 </head>
 <body>
-    <a href="index.html">HOME</a> |
-    <a href="html.html">HTML</a> |
-    <a href="js.html">JAVASCRIPT</a> |
-    <a href="css.html">CSS</a> |
-    <a href="pag1.html" target="_blank">site obscuro...</a>
 
-    <h1>Bem Vindo à Aprendizagem de Programação Web!</h1>
+    <h1>"O rock n'roll é o maior amor da minha vida, pois foi através dele que cheguei a todos os outros." - Ozzy</h1>
 
-    
-    <p id="texto1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem id, ea amet ab quisquam consectetur sequi, neque provident tempora repellendus, quae fugiat. <br>
-        Impedit tempora, iusto tempore qui inventore cum?<br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nam quisquam eius fugiat optio, aliquid, quia fugit placeat qui accusantium rerum voluptates <br>
-        ullam iste autem perferendis totam! Quos, obcaecati iusto?<br>
-        Ratione in nulla vitae voluptate sint, optio eum id fuga non assumenda, aspernatur cumque dicta sunt! <br>
-        iusto repudiandae hic ratione dolore consectetur ut aliquid assumenda minima. Dolores, veniam necessitatibus?<br>
-        Iusto placeat dolore id reprehenderit. Aut rem eius minima adipisci pariatur exercitationem placeat ex sit illo, veniam error.<br>
-        Voluptates voluptatem officiis vero perferendis dolor inventore nostrum dignissimos in reiciendis consequuntur.<br>
-        Amet magni similique, minus accusantium rem nostrum incidunt magnam mollitia aut illo! Sunt sint excepturi aspernatur ratione,<br>
-        recusandae quod porro soluta voluptatibus fugiat magni nemo dolor doloremque at dignissimos ad?<br>
-        Commodi amet nam aliquid id soluta exercitationem doloremque magni, rem porro quas, vitae nulla magnam earum nesciunt<br>
-        natus placeat nostrum blanditiis optio laborum mollitia aspernatur. Sunt facilis ullam inventore fugiat?
-    </p>
-    
-    <div>
-        <img style="width: 500px;" src="../imgs/eorOriginal.jpg" alt="Eye of Rah, The Original">
+    <div id="eras">
+        <h2>Eras</h2>
+
+        <b>Era Ozzy</b> <b>Era James Dio</b> <br>
+
+        <a href="eraOzzy.html"> <img class="tamanho-eras" src="../imgs/eraozzy.jpg" alt="Era Ozzy"> </a>
+
+        
+        <a href="eraDio.html"> <img class="tamanho-eras" src="../imgs/eradio.jpeg" alt="Era Dio"> </a>
     </div>
     
     <div class="icones">
