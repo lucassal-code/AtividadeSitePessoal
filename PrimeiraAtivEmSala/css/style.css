@@ -1,0 +1,45 @@
+/*headers*/
+h1 {
+    text-align: center;
+    background-color: brown;
+}
+
+ /*body*/
+body {
+    border: 10px solid red;
+    padding: 5px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+ul {
+    list-style-type: circle;
+}
+
+#texto1 {
+    text-align: center;
+}
+
+a {
+    color: red;
+}
+a:hover {
+    font-size: 25px;
+    background-color: red;
+    color: darkred;
+    font-weight: bolder;
+}
+
+/*imagens*/
+.icones {
+    text-align: right;
+}
+
+.imagens {
+    left: 150;  
+}
+
+.tamanho-imagem{
+    width: 50px;
+}
