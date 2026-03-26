@@ -5,21 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Sabbath!</title>
 
+    <link rel="stylesheet" href="../css/style.css">
     <style>
-        /*headers*/
-        h1 {
-            text-align: center;
-            margin: 10px;
-
-            color: darkred;
-            background-color: red;
-        }
-
-        h2 {
-            text-align: center;
-            color: red;
-        }
-
         /*body*/
         body {
             background-image: url(../imgs/background-image.png);
@@ -29,14 +16,21 @@
 
         #eras {
             text-align: center;
-            width: 1200px;
-            height: 400px;
+            width: 1800px;
+            height: 500px;
 
-            background-color: #ccc;
+            background-image: url(../imgs/background-placeholder.jpg);
+            opacity: 0.75;
 
             max-width: fit-content;
             margin-left: auto;
             margin-right: auto;
+            padding-bottom: 100px;
+        }
+        #eras img{
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 25px;
         }
 
         /*imagens*/
@@ -49,7 +43,7 @@
         }
 
         .tamanho-eras {
-            width: 300px;
+            width: 350px;
         }
 
     </style>
@@ -66,11 +60,11 @@
             <b>Era Dio</b>
         </div>
         
-
-        <a href="eraOzzy.html"> <img class="tamanho-eras" src="../imgs/eraozzy.jpg" alt="Era Ozzy"> </a>
-
+        <img src="../imgs/background-placeholder.jpg" alt="" style="opacity: 0.75;">
+    
+        <a href="eraOzzy.html"> <img style="opacity: initial;" class="tamanho-eras" src="../imgs/eraozzy.jpg" alt="Era Ozzy"> </a>
         
-        <a href="eraDio.html"> <img class="tamanho-eras" src="../imgs/eradio.jpeg" alt="Era Dio"> </a>
+        <a href="eraDio.html"> <img style="opacity: 1.00;" class="tamanho-eras" src="../imgs/eradio.jpeg" alt="Era Dio"> </a>
     </div>
     
     <div class="icones">

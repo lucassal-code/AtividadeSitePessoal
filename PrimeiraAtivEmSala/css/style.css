@@ -1,0 +1,24 @@
+/*headers*/
+h1 {
+    text-align: center;
+    margin: 10px;
+
+    color: darkred;
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+/*body*/
+#home {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+#home:hover {
+    background-color: red;
+    color: darkred;
+    font-size: 18px;
+}
