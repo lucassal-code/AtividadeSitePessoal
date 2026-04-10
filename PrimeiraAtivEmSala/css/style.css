@@ -22,3 +22,12 @@ h2 {
     color: darkred;
     font-size: 18px;
 }
+
+p {
+    size: 16px;
+}
+
+p o {
+   color: red;
+   size: 20px;
+}
