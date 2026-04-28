@@ -18,5 +18,55 @@
     <a href="css.html">CSS</a> 
 
     <h1>Sobre: HTML</h1>
+
+    <hr>
+
+    <h2><strong>Matérias do Jánio:</strong></h2>
+    <h3>FORM</h3>
+
+    <!-- Comentários do Jánio:
+
+    " <input type='text' id='txtCodigoDisc' name='txtCodigoDisc' value="1105"/>
+
+    <input type='button' value='Gravar' onclick='envia()'/> "
+
+    ----------------------------------------------------------
+
+    " <form method='POST' action='cad.php' id="frmCad" name="frmCad">
+    ....
+    </form> " -->
+
+    <!-- backendExemplo.php nao rodou como exemplo no action pq o arquivo n existe-->
+    <form action="" method="post" id="frmExemplo" name>
+
+        Exemplo de Input: <input type="text" id="txtExemploInput" name="txtExemploInput"/> <!-- value="1105"/> - inútil de colocar o valor -->
+
+        <input type="button" value="Gravar" onclick="enviar()"/>
+        <input type="button" value="Limpar" onclick="erro()">
+    </form>
+
+    <script>
+        function erro(){
+            alert("ainda não emplementado")
+        }
+
+        function enviar(){
+            var n = document.getElementById("txtExemploInput").value;
+            if (n.trim() === "") {
+                alert("não pode estar em branco");
+                return false; //impede de lançar os dados mesmo vazios
+            }else{
+                alert("tudo certo ")
+            }
+        }
+    </script>
+
+    <h3>TABLE</h3>
+
+    <table border="1">
+        <tr> <td>Linha 1 - Coluna 1</td> <td>Linha 1 - Coluna 2</td> </tr> <!-- td representa as colunas, tr representa as linhas-->
+        <tr> <td>Linha 2 - Coluna 1</td> <td>Linha 2 - Coluna 2</td> </tr>
+    </table>
+
 </body>
 </html>
